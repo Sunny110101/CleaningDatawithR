@@ -16,3 +16,4 @@ This repository contains the scripts and documentation for cleaning and processi
 1. Download the dataset and unzip it.
 2. Place `run_analysis.R` in the same directory as the dataset.
 3. Run `run_analysis.R` to generate the tidy dataset `tidy_data.txt`.
+4. Cleaned data is ready
