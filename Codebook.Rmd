@@ -1,0 +1,33 @@
+---
+title: "codebook"
+author: "Sai Ravichandra"
+date: "2024-06-11"
+output: html_document
+---
+
+# CodeBook
+
+## Overview
+
+This code book describes the variables, data, and transformations used in the `run_analysis.R` script to clean and process the dataset.
+
+## Variables
+
+- `subjectId`: ID of the subject
+- `activityId`: ID of the activity
+- `activityLabel`: Descriptive activity names
+- Measurement variables: Variables representing the mean and standard deviation for each measurement.
+
+## Data Source
+
+- Original dataset: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+- Data collected from accelerometers of the Samsung Galaxy S smartphone.
+
+## Transformation
+
+1. Merged training and test sets to create one dataset.
+2. Extracted only the measurements on the mean and standard deviation for each measurement.
+3. Used descriptive activity names to name the activities in the data set.
+4. Appropriately labeled the dataset with descriptive variable names.
+5. Created a second, independent tidy data set with the average of each variable for each activity and each subject.
+

@@ -55,5 +55,4 @@ tidy_data <- extracted_data %>%
   group_by(subjectId, activityId) %>%
   summarise_all(funs(mean))
 
-# Write to file
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE)
