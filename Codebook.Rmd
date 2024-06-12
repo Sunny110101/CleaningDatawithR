@@ -24,7 +24,6 @@ This code book describes the variables, data, and transformations used in the `r
 - Data collected from accelerometers of the Samsung Galaxy S smartphone.
 
 ## Transformation
-
 1. Merged training and test sets to create one dataset.
 2. Extracted only the measurements on the mean and standard deviation for each measurement.
 3. Used descriptive activity names to name the activities in the data set.
